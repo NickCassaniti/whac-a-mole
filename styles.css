@@ -1,0 +1,22 @@
+.grid {
+    display: flex;
+    width: 456px;
+    height: 456px;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    border: solid black 1px;
+}
+
+.mole {
+    background-color: blue;
+}
+
+.timer-and-score {
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+}
